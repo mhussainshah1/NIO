@@ -26,6 +26,4 @@ public class Listing {
 //            e.printStackTrace();
         }
     }
-
-
 }

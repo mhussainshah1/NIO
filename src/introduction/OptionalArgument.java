@@ -8,6 +8,7 @@ public class OptionalArgument {
         //optional arguments
         Path path = Paths.get("schedule.xml");
         boolean exists = Files.exists(path, LinkOption.NOFOLLOW_LINKS);
+        System.out.println(exists);
     }
 
     void copy(Path source, Path target) throws IOException {

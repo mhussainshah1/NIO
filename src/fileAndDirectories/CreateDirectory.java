@@ -8,6 +8,6 @@ public class CreateDirectory {
     public static void main(String[] args) throws IOException {
         //createDirectory()
         Files.createDirectory(Path.of("C/bison/field"));
-        Files.createDirectories(Path.of("/bison/field/pasture/green"));
+        Files.createDirectories(Path.of("C/bison/field/pasture/green"));
     }
 }

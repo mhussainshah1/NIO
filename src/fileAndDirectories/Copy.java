@@ -41,7 +41,7 @@ public class Copy {
         Files.copy(file, directory);
 
         //or
-        directory = Paths.get("/enclosure").resolve(file.getFileName());// \enclosure\food.txt
+        directory = Paths.get("C/enclosure").resolve(file.getFileName());// \enclosure\food.txt
         Files.copy(file, directory);
     }
 }
