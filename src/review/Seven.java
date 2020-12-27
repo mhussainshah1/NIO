@@ -7,8 +7,8 @@ import java.nio.file.Paths;
 
 public class Seven {
     public static void main(String[] args) throws IOException {
-        Path path = Paths.get("c/zoo/turkey");
-        if(Files.isSameFile(path,Paths.get("c/zoo/turkey"))) // z1
+        Path path = Paths.get("turkey");
+        if(Files.isSameFile(path,Paths.get("c/zoo/turkey"))) // z1 - NoSuchFileException
             Files.createDirectories(path.resolve("info")); // z2
     }
 }
